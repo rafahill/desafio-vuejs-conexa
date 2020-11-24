@@ -45,35 +45,8 @@ export default {
 span {
   width: 100%;
 }
-
-.no-bullets {
-  list-style: none;
-}
-
-.row-space-between {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.row-start-left {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.row-end-right {
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: flex-end;
-}
 </style>
 
-<style>
-.common-snackbar .v-snack__content {
-  padding: 12px 8px 0 8px;
-}
+<style lang="stylus">
+@import '~@/assets/style/shared/shared.styl'
 </style>

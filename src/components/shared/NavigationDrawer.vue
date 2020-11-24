@@ -70,5 +70,5 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '~@/assets/style/shared/shared.styl';
+@import '~@/assets/style/shared/shared.styl'
 </style>
